@@ -13,7 +13,7 @@ We chose 8 classes of data from Audioset that we felt were typical of daily life
 6 : Outside, urban or manmade
 7 : singing
 
-We created a simple convolutional neural network (CNN) using the Python library Keras. We supplied this model with mel spectrograms. We processed our original sound data using the Python library librosa's functions to convert .WAV files into mel spectrograms. 
+We created a simple convolutional neural network (CNN) using the Python library Keras. We supplied this model with mel spectrograms. We processed our original sound data using the Python library librosa's functions to convert .WAV files into mel spectrograms. (Credit to [OmarMedhat22](https://github.com/OmarMedhat22/Sound-Classification-Mel-Spectrogram) for the preprocessing inspiration). 
 
 Our final metrics for our model's classes are as below: 
 | Class | Precision | Recall | f1-score |
