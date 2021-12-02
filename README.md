@@ -4,14 +4,14 @@ Exploring sound classification using Google's Audioset dataset for Product Studi
 We downloaded data from Google's Audioset using [aoifemcdonagh's public GitHub repo](https://github.com/aoifemcdonagh/audioset-processing). 
 
 We chose 8 classes of data from Audioset that we felt were typical of daily life in NYC: 
-0 : screaming
-1 : Subway, metro, underground
-2 : speech
-3 : Outside, rural or natural
-4 : Traffic noise, roadway noise
-5 : Inside, small room
-6 : Outside, urban or manmade
-7 : singing
+{0 : screaming, 
+1 : Subway, metro, underground, 
+2 : speech, 
+3 : Outside, rural or natural, 
+4 : Traffic noise, roadway noise, 
+5 : Inside, small room, 
+6 : Outside, urban or manmade, 
+7 : singing}
 
 We created a simple convolutional neural network (CNN) using the Python library Keras. We supplied this model with mel spectrograms. We processed our original sound data using the Python library librosa's functions to convert .WAV files into mel spectrograms. (Credit to [OmarMedhat22](https://github.com/OmarMedhat22/Sound-Classification-Mel-Spectrogram) for the preprocessing inspiration). 
 
